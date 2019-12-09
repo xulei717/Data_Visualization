@@ -1,0 +1,12 @@
+1.不能弹窗图片
+https://blog.csdn.net/neninee/article/details/87972040
+解决思路：
+import matplotlib
+matplotlib.use('Qt5Agg')
+新问题：
+ImportError:Failed to import any qt binding
+https://stackoverflow.com/questions/52346254/importerror-failed-to-import-any-qt-binding-python-tensorflow
+解决思路：
+sudo pip3 uninstall matplotlib
+sudo python3 -m pip install --upgrade pip
+sudo pip3 install matplotlib

@@ -1,0 +1,5 @@
+ubuntu系统
+1.安装wordcloud
+sudo pip3 install wordcloud
+sudo pip3 install matplotlib
+
